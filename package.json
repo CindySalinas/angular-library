@@ -1,0 +1,22 @@
+{
+  "name": "login-wrapper",
+  "version": "1.0.0",
+  "description": "Login wrapper",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "login",
+    "authentication"
+  ],
+  "author": "cindy.salinas@rokk3rlabs.com",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^6.1.8",
+    "@angular/core": "^6.1.8",
+    "rxjs": "^6.3.2",
+    "typescript": "^3.0.3"
+  }
+}
