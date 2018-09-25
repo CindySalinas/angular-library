@@ -1,2 +1,4 @@
-export * from './src/login.module';
+export { LoginModule } from './src/login.module';
+export { LoginService } from './src/login.service';
+export { Login } from './src/login';
 //# sourceMappingURL=index.js.map

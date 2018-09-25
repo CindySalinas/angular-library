@@ -6,17 +6,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 import { NgModule } from '@angular/core';
 import { Login } from './login';
+import { LoginService } from './login.service';
 var LoginModule = (function () {
     function LoginModule() {
     }
-    LoginModule = __decorate([
+    LoginModule_1 = LoginModule;
+    LoginModule.forRoot = function () {
+        return {
+            ngModule: LoginModule_1,
+            providers: [LoginService]
+        };
+    };
+    var LoginModule_1;
+    LoginModule = LoginModule_1 = __decorate([
         NgModule({
             declarations: [
-                Login,
+                Login
             ],
             exports: [
-                Login,
-            ],
+                Login
+            ]
         })
     ], LoginModule);
     return LoginModule;
