@@ -5,7 +5,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 import { NgModule } from '@angular/core';
-import { Login } from './login';
 import { LoginService } from './login.service';
 var LoginModule = (function () {
     function LoginModule() {
@@ -19,14 +18,7 @@ var LoginModule = (function () {
     };
     var LoginModule_1;
     LoginModule = LoginModule_1 = __decorate([
-        NgModule({
-            declarations: [
-                Login
-            ],
-            exports: [
-                Login
-            ]
-        })
+        NgModule({})
     ], LoginModule);
     return LoginModule;
 }());
