@@ -3,12 +3,17 @@ import { Login } from './login';
 import { LoginService } from './login.service';
 @NgModule({
   declarations: [
-    Login,
-    LoginService
+    Login
   ],
   exports: [
-    Login,
-    LoginService
+    Login
   ]
 })
-export class LoginModule { }
+export class LoginModule {
+  static forRoot() {
+    return {
+      ngModule: LoginModule,
+      providers: [LoginService]
+    }
+  }
+}

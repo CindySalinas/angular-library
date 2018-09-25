@@ -14,9 +14,9 @@
   "author": "cindy.salinas@rokk3rlabs.com",
   "license": "MIT",
   "dependencies": {
-    "@angular/common": "^6.1.8",
-    "@angular/core": "^6.1.8",
-    "rxjs": "^6.3.2",
+    "@angular/common": "^6.1.0",
+    "@angular/core": "^6.1.0",
+    "rxjs": "~6.2.0",
     "typescript": "^3.0.3"
   }
 }
